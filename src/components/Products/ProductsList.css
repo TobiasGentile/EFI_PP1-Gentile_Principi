@@ -1,0 +1,24 @@
+.products-list {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.products-list h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.products-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.products-list li:last-child {
+    border-bottom: none;
+}

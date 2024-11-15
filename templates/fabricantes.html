@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricantes</title>
+</head>
+<body>
+    <h1>Lista de Fabricantes</h1>
+    <ul>
+        {% for fabricante in fabricantes %}
+            <li>{{ fabricante.nombre }} - Ubicación: {{ fabricante.ubicacion }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

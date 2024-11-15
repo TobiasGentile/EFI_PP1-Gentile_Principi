@@ -1,0 +1,24 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.products-list {
+    margin: 20px;
+}
+
+.products-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products-list th, .products-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.products-list th {
+    background-color: #f2f2f2;
+}
